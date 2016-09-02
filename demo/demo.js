@@ -33,11 +33,18 @@ function generate(ke) {
 
     var companyName = $('.js-company-name').value;
     var userAccount = $('.js-user-account').value;
+    var algo = $('.js-totp-algo').value || 'SHA1';
+    var digits = parseInt($('.js-totp-digits').value, 10) || 6;
+    var period = parseInt($('.js-totp-period').value, 10) || 30;
 
+    var otpauth = Authenticator.generateTotpUri(key, userAccount, companyName, algo, digits, period);
+    /*
     var otpauth = 'otpauth://totp/'
       + encodeURI(companyName) + ':' + encodeURI(userAccount)
       + '?secret=' + key.replace(/\s+/g, '').toUpperCase()
       ;
+    */
+
     // obviously don't use this in production, but it's not so bad for the demo
     // (hmm... no one has ever said those words and regretted them... TODO XXX generate QR locally)
     var src = 'https://chart.googleapis.com/chart?chs=166x166&chld=L|0&cht=qr&chl=' + encodeURIComponent(otpauth);
