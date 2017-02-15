@@ -60,7 +60,10 @@
     var accountName;
 
     otplink.href = otpauth;
-    otp = parseQuery(otplink.search);
+
+    var idx = otplink.href.indexOf('?');
+    var queryString = (idx >= 0 ?  otplink.href.slice(idx) : '');
+    otp = parseQuery(queryString);
 
     meta = otplink.pathname.replace(/.*\/totp\//, '').split(':');
     // TODO throw if otp.issuer !== decodeURI(meta[0])
