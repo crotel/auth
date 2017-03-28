@@ -31,6 +31,10 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "demo",
+    "example",
+    "index.html",
+    "test.html",
     "test",
     "tests"
   ],
