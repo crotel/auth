@@ -1,24 +1,9 @@
-<!-- BANNER_TPL_BEGIN -->
-
-About Daplie: We're taking back the Internet!
---------------
-
-Down with Google, Apple, and Facebook!
-
-We're re-decentralizing the web and making it read-write again - one home cloud system at a time.
-
-Tired of serving the Empire? Come join the Rebel Alliance:
-
-<a href="mailto:jobs@daplie.com">jobs@daplie.com</a> | [Invest in Daplie on Wefunder](https://daplie.com/invest/) | [Pre-order Cloud](https://daplie.com/preorder/), The World's First Home Server for Everyone
-
-<!-- BANNER_TPL_END -->
-
 # Browser Authenticator
 
 Two- / Multi- Factor Authenication (2FA / MFA) for browser JavaScript
 
-[![](http://i.imgur.com/sdvMdbo.png)](https://daplie.github.io/browser-authenticator/)
-<!-- ![](https://blog.authy.com/assets/posts/authenticator.png) -->
+<!-- [![](http://i.imgur.com/sdvMdbo.png)](https://daplie.github.io/browser-authenticator/) -->
+![](https://blog.authy.com/assets/posts/authenticator.png)
 
 There are a number of apps that various websites use to give you 6-digit codes to increase security when you log in:
 
