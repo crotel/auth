@@ -15,7 +15,7 @@ There are a number of apps that various websites use to give you 6-digit codes t
 There are many [Services that Support MFA](http://lifehacker.com/5938565/heres-everywhere-you-should-enable-two-factor-authentication-right-now),
 including Google, Microsoft, Facebook, and Digital Ocean for starters.
 
-This module uses [`botp`](https://github.com/Daplie/botp) which implements `TOTP` [(RFC 6238)](https://www.ietf.org/rfc/rfc6238.txt)
+This module uses [`botp`](https://git.coolaj86.com/coolaj86/botp.js) which implements `TOTP` [(RFC 6238)](https://www.ietf.org/rfc/rfc6238.txt)
 (the *Authenticator* standard), which is based on `HOTP` [(RFC 4226)](https://www.ietf.org/rfc/rfc4226.txt)
 to provide codes that are exactly compatible with all other *Authenticator* apps and services that use them.
 
@@ -24,7 +24,7 @@ Demo
 
 [Live Demo](https://daplie.github.io/browser-authenticator/) at <https://daplie.github.io/browser-authenticator/>
 
-You may also be interested in [Node Authenticator](https://github.com/Daplie/node-authenticator) over at <https://github.com/Daplie/node-authenticator>
+You may also be interested in [Node Authenticator](https://git.coolaj86.com/coolaj86/node-authenticator.js) over at <https://git.coolaj86.com/coolaj86/node-authenticator.js>
 
 Usage
 =====
