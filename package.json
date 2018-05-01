@@ -1,6 +1,6 @@
 {
   "name": "browser-authenticator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Two- / Multi- Factor Authenication (2FA / MFA / OTP) for browser JavaScript",
   "main": "authenticator.js",
   "homepage": "https://git.coolaj86.com/coolaj86/browser-authenticator.js",
