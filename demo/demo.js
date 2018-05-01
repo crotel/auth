@@ -50,6 +50,7 @@ function generate(ke) {
     var src = 'https://chart.googleapis.com/chart?chs=166x166&chld=L|0&cht=qr&chl=' + encodeURIComponent(otpauth);
 
     $('.js-otpauth').innerHTML = otpauth; // only safe to inject because I created it
+    $('.js-otpauth').href = otpauth;
     $('img.js-qrcode').src = src;
     $('.js-otp-iframe').src = 'demo/phone.html?otpuri=' + encodeURIComponent(otpauth);
 
