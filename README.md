@@ -173,3 +173,11 @@ The window is set to +/- 1, meaning each token is valid for a total of 90 second
 (-30 seconds, +0 seconds, and +30 seconds)
 to account for time drift (which should be very rare for mobile devices)
 and humans who are handicapped or otherwise struggle with quick fine motor skills (like my grandma).
+
+
+Install WebApp
+--------------
+
+```bash
+git clone --depth 1 https://git.coolaj86.com/coolaj86/browser-authenticator.js.git
+```
