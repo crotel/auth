@@ -5,13 +5,28 @@ var Authenticator = exports.Authenticator || exports;
 var Unibabel = window.Unibabel; // || require('unibabel');
 var totp = window.totp; // || require('notp').totp;
 
-if (!window.crypto) {
+function loadForge() {
+  var script = document.createElement('script');
+  script.src = 'demo/bower_components/forge/dist/forge.min.js';
+  script.addEventListener('load', collectRandom);
+  document.body.appendChild(script);
+}
+
+function collectRandom() {
   document.addEventListener('mousemove', function (event) {
     var ev = event || window.event;
 
     window.forge.random.collectInt(ev.pageX, 16);
     window.forge.random.collectInt(ev.pageY, 16);
   });
+}
+
+if (!window.crypto) {
+  if (!window.forge) {
+    loadForge();
+  } else {
+    collectRandom();
+  }
 }
 
 // Generate a key
