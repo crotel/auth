@@ -1,7 +1,6 @@
 {
   "name": "authenticator",
-  "version": "1.0.6",
-  "homepage": "https://github.com/Daplie/browser-authenticator",
+  "homepage": "https://git.coolaj86.com/coolaj86/browser-authenticator.js",
   "authors": [
     "AJ ONeal <awesome@coolaj86.com>"
   ],
