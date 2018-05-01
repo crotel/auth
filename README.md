@@ -2,7 +2,7 @@
 
 Two- / Multi- Factor Authenication (2FA / MFA) for browser JavaScript
 
-<!-- [![](http://i.imgur.com/sdvMdbo.png)](https://daplie.github.io/browser-authenticator/) -->
+<!-- [![](http://i.imgur.com/sdvMdbo.png)](https://authenticator.ppl.family/) -->
 ![](https://blog.authy.com/assets/posts/authenticator.png)
 
 There are a number of apps that various websites use to give you 6-digit codes to increase security when you log in:
@@ -22,7 +22,8 @@ to provide codes that are exactly compatible with all other *Authenticator* apps
 Demo
 ====
 
-[Live Demo](https://daplie.github.io/browser-authenticator/) at <https://daplie.github.io/browser-authenticator/>
+[Live Demo](https://authenticator.ppl.family/)
+at <https://authenticator.ppl.family/>
 
 You may also be interested in [Node Authenticator](https://git.coolaj86.com/coolaj86/node-authenticator.js) over at <https://git.coolaj86.com/coolaj86/node-authenticator.js>
 
